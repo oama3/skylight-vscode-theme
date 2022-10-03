@@ -1,0 +1,36 @@
+{
+  "name": "skylight-vscode-theme",
+  "displayName": "Skylight Theme",
+  "description": "A calm and easy to look at dark theme",
+  "version": "0.0.1",
+  "preview": true,
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "minimal",
+    "calm"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Skylight Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/skylight-color-theme.json"
+      }
+    ]
+  },
+  "author": {
+    "name": "Omar A",
+    "email": "skylight.theme@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oama3/skylight-vscode-theme.git"
+  }
+}
